@@ -30,14 +30,14 @@ body {
 }
 
 .main-content > div {
-  padding: 25px;
+  padding: 50px 59px;
 }
 /* END */
 
 /* Side Navbar */
 /* START */
 .sidebar {
-  background-color: #F0F0F0;
+  background-color: #fff23b;
   height: 100vh;
 }
 
@@ -63,11 +63,12 @@ body {
 /* Top Navbar */
 /* START */
 .navbar {
-  background-color: transparent;
-  padding: 25px;
+  background-color: #dd0000;
+  padding: 10px 25px;
   display: flex;
   gap: 25px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar ul {
@@ -86,19 +87,35 @@ body {
 }
 /* END */
 
-/* Login/Logout buttons */
+/* Buttons */
 /* START */
 button {
   background-color: #030303;
   color: #fff;
   border-radius: 12px;
-  padding: 8px;
+  padding: 12px 18px;
   border: none;
   cursor: pointer;
+}
+
+.login {
+  background-color: #0056f7;
+}
+
+.logout {
+  background-color: #ce0404;
 }
 /* END */
 
 /* Profile Page */
 /* START */
+.profile h1,
+.profile p {
+  margin-bottom: 10px;
+}
 
+.profile img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
 /* END */

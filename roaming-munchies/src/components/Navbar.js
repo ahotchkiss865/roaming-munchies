@@ -24,7 +24,7 @@ function Navbar() {
           </>
         ) : (
           <>
-            <button onClick={() => loginWithRedirect()}>Login</button>
+            <button className='login' onClick={() => loginWithRedirect()}>Login</button>
           </>
         )}
       </div>

@@ -11,12 +11,11 @@ function Profile() {
   }
 
   return (
-    <div class="profile">
-      <h2>User Profile</h2>
+    <div className="profile">
+      <h1>{user.name}</h1>
       <img src={user.picture} alt={user.name} />
-      <h3>{user.name}</h3>
       <p>Email: {user.email}</p>
-      <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
+      <button className="logout" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Log Out</button>
       {/* Display additional user information here */}
     </div>
   );
