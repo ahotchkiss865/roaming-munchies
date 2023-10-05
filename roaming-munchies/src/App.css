@@ -37,7 +37,7 @@ body {
 /* Side Navbar */
 /* START */
 .sidebar {
-  background-color: #FFDB58;
+  background-color: #FF2400;
   height: 100vh;
 }
 
@@ -63,7 +63,7 @@ body {
 /* Top Navbar */
 /* START */
 .navbar {
-  background-color: #FF2400;
+  background-color: #cccccc;
   padding: 10px 25px;
   display: flex;
   gap: 25px;
